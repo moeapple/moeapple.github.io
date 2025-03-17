@@ -1,0 +1,18 @@
+/* Center images and make them look neat */
+img {
+    display: block;
+    margin: 20px auto;  /* Centers images horizontally */
+    max-width: 90%;  /* Ensures images scale properly */
+    height: auto;  /* Keeps the aspect ratio */
+    border-radius: 10px; /* Slight rounded corners for a smoother look */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adds a soft shadow */
+}
+
+/* Center the text below images */
+p {
+    text-align: center;
+    font-family: Baskerville;
+    font-style: normal;
+    color: yellowgreen;
+    margin-top: 10px;
+}
