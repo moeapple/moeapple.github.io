@@ -1,18 +1,79 @@
-/* Center images and make them look neat */
-img {
-    display: block;
-    margin: 20px auto;  /* Centers images horizontally */
-    max-width: 90%;  /* Ensures images scale properly */
-    height: auto;  /* Keeps the aspect ratio */
-    border-radius: 10px; /* Slight rounded corners for a smoother look */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adds a soft shadow */
+/* General Body Styling */
+body {
+  font-family: Baskerville, serif;
+  background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0);
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
-/* Center the text below images */
+/* Container to Center Content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Image Styling */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Paragraph Styling */
 p {
-    text-align: center;
-    font-family: Baskerville;
-    font-style: normal;
-    color: yellowgreen;
-    margin-top: 10px;
+  text-align: center;
+  color: yellowgreen;
+  margin-top: 10px;
+}
+
+.sub-title {
+  font-family: Courier, monospace;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Headings */
+h1, h2 {
+  color: #2c3e50;
+}
+
+/* Playlist List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Link Styling */
+a {
+  text-decoration: none;
+  color: #3366cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Details/Summary Styling */
+details {
+  margin: 15px 0;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Article */
+article {
+  margin-top: 30px;
 }
